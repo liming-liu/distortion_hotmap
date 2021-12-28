@@ -7,8 +7,8 @@ Input structure file in `vasp` format, output `CHGCAR` like files which can be v
 1. Data of two corresponding `POSCAR`s
 2. Calculate the `displacement matrix`
 3. Calculate the `displacement scalar`
-4. Plot atomic stick-ball figure
-5. Add the hotmap based on `displacement matrix` and `displacement scalars`
+4. Grid lattice cell and interpolate displacement value.
+5. format data as `CHGCAR`.
 
 ## Example
 ![local distortion](local.jpg)
