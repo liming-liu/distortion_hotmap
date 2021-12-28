@@ -1,6 +1,7 @@
 # distortion_hotmap
 ## Utility
-To visulize the lattice distortion after the geometric optimization of the supercell by `VASP`
+To visulize the lattice distortion after the geometric optimization or along a dynamic trajectory. 
+Structure file in `vasp` format.
 
 ## Flow chart
 1. Data of two corresponding `POSCAR`s
@@ -10,5 +11,7 @@ To visulize the lattice distortion after the geometric optimization of the super
 5. Add the hotmap based on `displacement matrix` and `displacement scalars`
 
 ## Example
+![local distortion](local.jpg)
+![delocal distortion](delocal.jpg)
 
 ## Bugs
