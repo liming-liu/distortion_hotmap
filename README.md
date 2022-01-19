@@ -14,6 +14,6 @@ Input structure file in `vasp` format, output `CHGCAR` like files which can be v
 ![local distortion](local.jpg)
 After geo-opt, only bonds around one Ti expanded, forming a small polaron.
 ![delocal distortion](delocal.jpg)
-A group of Ti atoms expands.
+A group of Ti atoms expanded their centered octahedrons.
 
 ## Bugs
