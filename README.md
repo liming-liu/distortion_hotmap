@@ -8,12 +8,12 @@ Input structure file in `vasp` format, output `CHGCAR` like files which can be v
 2. Calculate the `displacement matrix`
 3. Calculate the `displacement scalar`
 4. Grid lattice cell and interpolate displacement value.
-5. format data as `CHGCAR`.
+5. formated volumn data as `CHGCAR` and can be visualized using ![VESTA](http://jp-minerals.org/vesta/en/download.html).
 
 ## Example
 ![local distortion](local.jpg)
 After geo-opt, only bonds around one Ti expanded, forming a small polaron.
 ![delocal distortion](delocal.jpg)
-A group of Ti atoms expanded their centered octahedrons.
+A group of Ti atoms expanded their centered octahedrons, no sigle-site-occupied small polaron formed.
 
 ## Bugs
